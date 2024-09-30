@@ -4,12 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bitflags = "2"
-crc = "3"
-log = "0"
-uuid = { version = "1", features = [
-    "macro-diagnostics",
-], default-features = false }
 
 [features]
 block = []
