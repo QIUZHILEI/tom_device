@@ -27,3 +27,9 @@ pub trait Device: Sync {
     fn device_type(&self) -> DeviceType;
     fn error_handle(&self) -> DeviceStatus;
 }
+
+// todo!()
+// pub trait DeviceInfo: Debug {
+// fn interface_type(&self);
+// fn serial_code(&self);
+// }
